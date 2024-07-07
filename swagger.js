@@ -5,8 +5,12 @@ const doc = {
     title: 'REST API',
     description: 'REST API with Express and Firestore'
   },
-  host: 'localhost:5500',
+  // host: 'localhost:5500',
+  host: 'https://restapi-qs0v.onrender.com/',
   "basePath": "/api",
+  "schemes": [
+    "http", "https"
+  ]
 };
 
 const outputFile = './swagger_output.json'
