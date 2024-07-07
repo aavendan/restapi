@@ -30,7 +30,6 @@ const PORT = process.env.PORT || 5000;
 /* Ruta Base -> Documentación */
 app.use('/documentation', swaggerUi.serve, swaggerUi.setup(swaggerFile))
 
-
 app.use('/api', require('./routes/api'));
 
 app.listen(PORT, () => {
