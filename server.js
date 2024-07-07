@@ -5,8 +5,6 @@ var cors = require('cors')
 const bodyParser = require('body-parser');
 const admin = require('firebase-admin');
 
-app.use(cors())
-
 /* Referencia al módulo swagger-ui-express */
 const swaggerUi = require('swagger-ui-express')
 
@@ -22,6 +20,9 @@ admin.initializeApp({
 });
 
 const app = express();
+
+app.use(cors())
+
 app.use(bodyParser.json());
 
 const PORT = process.env.PORT || 5000;
