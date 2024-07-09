@@ -6,7 +6,7 @@ const doc = {
     description: 'REST API with Express and Firestore'
   },
   // "host": 'localhost:5500',
-  "host": 'restapi-jp3f.onrender.com',
+  "host": 'restapi-rbtj.onrender.com',
   "basePath": "/api",
   "schemes": [
     "http", "https"
