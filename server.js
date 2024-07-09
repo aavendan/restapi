@@ -19,7 +19,7 @@ admin.initializeApp({
 
 const app = express();
 
-app.use(cors());
+// app.use(cors());
 
 app.use(bodyParser.json());
 
