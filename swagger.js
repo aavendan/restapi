@@ -9,7 +9,7 @@ const doc = {
   "host": 'restapi-yyyh.onrender.com',
   "basePath": "/api",
   "schemes": [
-    "http", "https"
+    "https"
   ]
 };
 
