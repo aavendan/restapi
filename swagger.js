@@ -8,7 +8,9 @@ const doc = {
   // "host": 'localhost:5500',
   "host": 'restapi-yyyh.onrender.com',
   "basePath": "/api",
-  "schemes": "https"
+  "schemes": [
+    "http", "https"
+  ]
 };
 
 const outputFile = './swagger_output.json'

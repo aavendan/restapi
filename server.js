@@ -3,6 +3,7 @@ require('dotenv').config()
 const express = require('express');
 const bodyParser = require('body-parser');
 const admin = require('firebase-admin');
+const cors = require('cors');
 
 /* Referencia al módulo swagger-ui-express */
 const swaggerUi = require('swagger-ui-express')
@@ -17,6 +18,8 @@ admin.initializeApp({
 });
 
 const app = express();
+
+app.use(cors());
 
 app.use(bodyParser.json());
 
